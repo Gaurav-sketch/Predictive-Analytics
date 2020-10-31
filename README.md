@@ -1,5 +1,11 @@
-# Predictive-Analytics
-Analysis of the House dataset having information on sales of home in Dublin.
+# Predictive-Analytics using 
+
+
+<img src ="https://ih1.redbubble.net/image.512523322.6908/st,small,507x507-pad,600x600,f8f8f8.u1.jpg" />
+
+
+
+**Analysis of the House dataset having information on sales of home in Dublin.**
 The variables available in the dataset are as below :
 - Price (Target Variable)
 - Size
@@ -44,7 +50,18 @@ The variables available in the dataset are as below :
 3) In the component residual plot , the fitted pink line deviates from the original line ,so indicates the presence of outlier and that variable should be removed.
 4) Durbin Watson test statistics to check the presence of Auto-Correlation , so the variables cannot be classed as independent.
 5) This can be corrected using Mixed effect model.
-6) Variation Inflation Factor and Correlation plot to check the presence of Correlated variables
+6) Variation Inflation Factor and Correlation plot to check the presence of Correlated variables.
+7) Check the Normality assumption by interpreting the histogram and quantilequantile plot of the studentized residuals.It was normal but if not then go for transformation.
+
+# Leverage , Influence and Outliers:
+
+1) Found the leverage point having unusual X Value.
+2) Found Influential point and removed it.
+3) Outlier was present and that was identified using outlier and leverage diagnostics plot.
+
+# Confidence Interval and Prediction Interval 
+
+1) With the plot saw that the fitted values were in the prediction interval.So , overall model was giving good estimation of House price.
 
 
 

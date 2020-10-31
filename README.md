@@ -17,6 +17,13 @@ The variables available in the dataset are as below :
 - Garage
 - School
 
+# Library used :
+
+1) ggplot2
+2) corrplot
+3) car
+4) stats
+
 # Work Done on this :
 
 - Exploratory Data Analysis : 

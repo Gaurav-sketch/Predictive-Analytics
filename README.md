@@ -6,6 +6,7 @@
 
 
 **Analysis of the House dataset having information on sales of home in Dublin.**
+
 The variables available in the dataset are as below :
 - Price (Target Variable)
 - Size
